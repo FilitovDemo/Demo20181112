@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "84059893026",
+    "firebase_url": "https://fir-1112.firebaseio.com",
+    "project_id": "fir-1112",
+    "storage_bucket": "fir-1112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84059893026:android:e9b9cb0d2abbd492",
+        "android_client_info": {
+          "package_name": "tw.edu.tut.mis.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84059893026-t0gbqddlb4pgq40ar05oglpsvv9hg1j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy-s8kki49M9-ZUoue8tfCMK9xj0d7qr8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
