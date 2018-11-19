@@ -6,7 +6,7 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 
 public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService {
-    final String TAG = "fili_demo";
+    final String TAG = "";
     @Override
     public void onTokenRefresh() {
         //在 token 更新時，(或者第一次產生時)，此時可以取得這個 token

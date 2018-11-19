@@ -8,6 +8,8 @@ import android.util.Log;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import java.util.Map;
+
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     final String TAG = "fili_demo";
@@ -19,7 +21,13 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // Check if message contains a data payload.
         if (remoteMessage.getData().size() > 0) {
             Log.d(TAG, "data訊息(payload): " + remoteMessage.getData());
-            //TODO: 處理data訊息
+
+            //印出來偵錯用
+            Map<String,String> data = remoteMessage.getData();
+            for( String k : data.keySet() ){
+                String v = data.get(k);
+                Log.d(TAG, "收到的EXTRAS中, Key="+k+"  Value="+v );
+            }
         }
 
         // Check if message contains a notification payload.
